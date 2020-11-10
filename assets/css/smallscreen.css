@@ -1,0 +1,93 @@
+@media screen and (max-width: 1200px) {
+    .navBar {
+        margin-left: 0vh;
+    }
+    #titre {
+        margin-top: 45%;
+    }
+  li {
+  list-style:none;
+  }
+  .nav-mv {
+     margin-left:15em; 
+     margin-top: -2em;
+  }
+  .fb-like {
+max-width:10px; !imoortant
+  height:auto;
+}
+  .font {
+    font-family: 'Macondo Swash Caps', cursive;
+  font-size: 0.8em;
+        font-weight: bold;
+}
+  .img-little {
+    width:30px; !important
+    height:auto;
+}
+    .titleFont {
+    font-family: 'Macondo Swash Caps', cursive;
+        font-size: 2.5em;
+    }
+    .fa-cog {
+        margin-left: 85%;
+        font-size: 2em;
+        color: black;
+    }
+    .profil {
+        margin-top: 2em;
+    }
+    .header {
+        margin-top: 5em;
+    }
+    .imgLife {
+        margin-left: 5%;
+        width: 90%;
+        height: auto;
+    }
+    .toScroll {
+        margin-top: -9em;
+    }
+    .fontStyle {
+    font-family: 'Macondo Swash Caps', cursive;
+        font-size: 1em;
+    }
+    .scrollTo {
+        line-height: 23em;
+        font-size: 1em;
+        text-decoration: none;
+        color: black;
+        border: 1px solid black;
+        padding:0.3em 1em;
+        letter-spacing:0.2em;
+    }
+    .imgProfil {
+        width: 100%;
+        height: auto;
+    }
+    .prev-next {
+        color: black;
+        font-size : 1em;
+    }
+    iframe {
+        width: 100%;
+        height: auto;
+    }
+    .img {
+        width: 60%;
+    }
+    .view img {
+        max-width:100%;
+        height: auto;
+    }
+    .marge {
+        margin-left: 50%;
+    }
+    .pad {
+        padding-top: 2em;
+    }
+    .carousel {
+       max-width:60%;
+        height: auto;  
+    }
+}

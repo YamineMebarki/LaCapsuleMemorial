@@ -1,0 +1,446 @@
+@import url('https://fonts.googleapis.com/css?family=Coda+Caption:800&display=swap');
+body.cookiewarning {
+    padding-bottom: 15em;
+}
+body div.cookiewarning {
+    display: none;
+}
+body.cookiewarning div.cookiewarning {
+    padding: 1em;	
+    display: block;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index:100;
+    background-color:white;
+    color: black;
+}
+.bookGold {
+background-color: #e6d74d;
+}
+.btn-white{
+    background-color: white;
+}
+.title-font{
+    font-family: 'Coda Caption', sans-serif;
+}
+.gold {
+color: #e6d74d;
+  text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
+}
+.img-little {
+    width:40px;
+    height:auto;
+}
+.img-cube {
+ width: 20px;
+  height: auto;
+}
+.moov {
+  display:inline-block;
+  overflow:hidden;
+  white-space:nowrap;
+}
+.moov:first-of-type {    /* For increasing performance 
+                       ID/Class should've been used. 
+                       For a small demo 
+                       it's okaish for now */
+  animation: showup 7s infinite;
+}
+
+.moov:last-of-type {
+  width:0px;
+  animation: reveal 7s infinite;
+}
+
+.moov:last-of-type span {
+  margin-left:-355px;
+  animation: slidein 7s infinite;
+}
+
+@keyframes showup {
+    0% {opacity:0;}
+    20% {opacity:1;}
+    80% {opacity:1;}
+    100% {opacity:0;}
+}
+
+@keyframes slidein {
+    0% { margin-left:-800px; }
+    20% { margin-left:-800px; }
+    35% { margin-left:0px; }
+    100% { margin-left:0px; }
+}
+
+@keyframes reveal {
+    0% {opacity:0;width:0px;}
+    20% {opacity:1;width:0px;}
+    30% {width:355px;}
+    80% {opacity:1;}
+    100% {opacity:0;width:355px;}
+}
+
+
+.anim {
+  font-size:12px;
+  color:#999;
+  margin-top:200px;
+}
+.fb-like {
+max-width:10px; !imoortant
+  height:auto;
+}
+body .removecookie {
+    display: inline-block;
+}
+body.cookiewarning .removecookie {
+    display: none;
+}
+/* DEBUT CSS */
+body {
+    font-size: 1.2em;
+    line-height: 2.2em;
+}
+.btn-circle.btn-xl {
+    width: 70px;
+    height: 70px;
+    padding: 10px 16px;
+    border-radius: 35px;
+    font-size: 24px;
+    line-height: 1.33;
+}
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    padding: 6px 0px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.42857;
+}
+.bulle {
+    border-radius: 50%;
+}
+.white {
+    background-color: white;
+}
+.img-google {
+ width:10%;
+  height:auto;
+}
+.label-file {
+    cursor: pointer;
+    color: #00b1ca;
+    font-weight: bold;
+}
+.label-file:hover {
+    color: #25a5c4;
+}
+
+.input-file {
+    display: none;
+}
+.center {
+    text-align: center;
+}
+.content {
+    background-image: url('../img/heaven.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+li {
+ list-style:none; 
+}
+.content1 {
+    background-image: url('../img/heav.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.golden {
+    background-image: url('../img/golden.gif');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.contentDream {
+    background-image: url('../img/dream.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.view {
+    overflow: hidden; /* les dépassements seront masqués */
+    word-wrap: break-word; /* utilisée pour définir la césure à l'intérieur d'un mot  */
+    text-overflow: ellipsis; /* définit la façon dont le contenu textuel qui dépasse d'une boîte  */
+    -webkit-hyphens: auto; /* indique comment le navigateur doit gérer les traits d'union lors des sauts de ligne, 3 mode possible : none | manual | auto */
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    -o-hyphens: auto;
+    hyphens: auto;
+}
+.content2 {
+    background-image: url('../img/ciel.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.subContent {
+    background-color: #3fabe3;
+}
+.fa-download {
+font-size: 2em;
+}
+.fa-cog {
+    font-size: 2em;
+    color: black;
+    margin-top: 0.2em;
+}
+.fa-youtube {
+    font-size: 10em;
+}
+.fa-images {
+    font-size: 10em;
+}
+.fa-image {
+    font-size: 10em;
+}
+.fa-file-alt {
+    font-size: 10em;
+}
+.nav-mv {
+     margin-left: 5em; 
+}
+.fa-power-off {
+    font-size:  1.5em;
+    color: red;
+}
+.pad {
+    padding-top: 3em;
+}
+
+/* animation info */
+
+.tt .tt_info {
+    position: absolute;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: -30px;
+    background: black;
+    opacity: 0;
+    color: #fff;
+    -webkit-transform: scale(0) rotateZ(-12deg);
+    -moz-transform: scale(0) rotate(-12deg);
+    -ms-transform: scale(0) rotateZ(-12deg);
+    -o-transform: scale(0) rotate(-12deg);
+    transform: scale(0) rotateZ(-12deg);
+    -webkit-transition: all .25s;
+    -moz-transition: all .25s;
+    -ms-transition: all .25s;
+    -o-transition: all .25s;
+    transition: all .25s;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 0 2px rgba(0,0,0,.5);
+    -moz-box-shadow: 0 0 2px rgba(0,0,0,.5);
+    box-shadow: 0 0 2px rgba(0,0,0,.5);
+}
+
+.tt:focus .tt_info, .tt:hover .tt_info {
+    transform:scale(1) rotate(0);
+    opacity: 1;
+    -webkit-transform: scale(1) rotateZ(0);
+    -moz-transform: scale(1) rotate(0);
+    -ms-transform: scale(1) rotateZ(0);
+    -o-transform: scale(1) rotate(0);
+    transform: scale(1) rotateZ(0);
+}
+.carousel {
+        max-width:100%;
+        height: auto;
+}
+/*SCROLL*/
+.toScroll {
+    margin-top: -5em;
+}
+.scrollTo {
+    line-height: 10em;
+    font-size: 2em;
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding:0.3em 1.8em;
+    letter-spacing:0.2em;
+}
+.scrollTo:hover {
+    background: #FFFFFF;
+    color: #000000;
+    font-weight: bold;
+    border: 1px solid black;
+    text-decoration:none;
+}
+.scroll-top-wrapper {
+    position: fixed;
+    opacity: 0;
+    visibility: hidden;
+    overflow: hidden;
+    text-align: center;
+    z-index: 99999999;
+    background-color: #777777;
+    color: #eeeeee;
+    width: 50px;
+    height: 48px;
+    line-height: 48px;
+    right: 30px;
+    bottom: 30px;
+    padding-top: 2px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+.scroll-top-wrapper:hover {
+    background-color: #888888;
+}
+.scroll-top-wrapper.show {
+    visibility:visible;
+    cursor:pointer;
+    opacity: 1.0;
+}
+.scroll-top-wrapper i.fa {
+    line-height: inherit;
+}
+.shadow {
+    border: 2px solid;
+    padding: 10px;
+    box-shadow: 10px 15px #888888;
+}
+.Qrcode {
+    width: 25vh;
+    height: auto;
+}
+.prev-next {
+    color: black;
+    font-size : 3em;
+}
+#titre {
+    margin-top: 2%;
+}
+.table {
+    background-color: gray;
+    border : 1px solid white;
+    line-height: 1em;
+}
+tbody {
+    border: 2px solid white;
+}
+th {
+    border: 2px solid white;
+}
+td {
+    border: 2px solid white;
+}
+.imgProfil {
+    border: 3px solid black;
+    width: 30%;
+    max-width: 100%;
+    height: auto;
+}
+.imgLife {
+    margin-left: 10%;
+}
+.area {
+    width: 100%;
+    height: auto;
+}
+.colwhite {
+ color: white; 
+}
+.erreur {
+    color: red;
+    font-size: 10em;
+}
+.img {
+    width: 20%;
+}
+.sub {
+    border: 2px solid black;
+}
+.text {
+    font-size: 1.5em
+}
+.sub-title {
+    font-size: 2em;
+    text-decoration: underline;
+}
+.navBar {
+    margin-left: 75vh;
+}
+.font-default {
+    color: black;
+}
+#QuiSommesNous h3 {
+    font-size: 2em;
+}
+.backFooter {
+    background-color: black;
+    width:100% ;
+    height:300px ;
+}
+span.wild {
+    color: #a24a4a;
+}
+span.style {
+    font-size: 1.2em;
+    color: lightslategrey;
+}
+.btn {
+    border: 1px solid black;
+}
+.line-height {
+    line-height: 1em;
+}
+.marge {
+    line-height: 1em;
+    margin-left: 400%;
+}
+.top {
+    margin-top: 5%;
+}
+.fontStyle {
+    font-family: 'Macondo Swash Caps', cursive;
+    font-size: 1.5em;
+}
+.titleFont {
+    font-family: 'Macondo Swash Caps', cursive;
+    font-size: 7em;
+}
+
+.font {
+    font-family: 'Macondo Swash Caps', cursive;
+  font-size: 1em;
+}
+.titleAbout {
+    text-align: left;
+}
+.style {
+    color: black;
+    font-weight:bold;
+    margin: 2em;
+}
+#aPropos {
+    margin-left: 0.5vh;
+    background: #5a7782;
+    padding: 1em 3em 1em 2em;
+    text-shadow: 1px 1px #000000;
+    color: #FFF;
+    font-size: 1em;
+}
+
+.oeil {
+    width: 20px;
+    height: auto;
+}
+
